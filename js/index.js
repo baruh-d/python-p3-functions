@@ -54,3 +54,18 @@ function halve(number) {
 
   return number / 2;
 }
+
+const myFunction = (param) => {
+  console.log("Running myFunction");
+  return param + 1;
+}
+
+const myFunctionReturnValue = myFunction(1);
+console.log(myFunctionReturnValue);
+// console.log(myFunction(1));
+
+const sayHi = names => {
+  console.log(`Hi there, ${names}!`);
+}
+
+sayHi("Sunny");
