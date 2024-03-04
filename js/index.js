@@ -64,8 +64,10 @@ const myFunctionReturnValue = myFunction(1);
 console.log(myFunctionReturnValue);
 // console.log(myFunction(1));
 
-const sayHi = names => {
+const sayHi = (names = "friend") => {
   console.log(`Hi there, ${names}!`);
 }
+
+sayHi();
 
 sayHi("Sunny");
